@@ -1,5 +1,5 @@
 title: 'Unnamed Bot Organisation'
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
 permalink: /:title
 incremental: true
@@ -7,3 +7,4 @@ incremental: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
