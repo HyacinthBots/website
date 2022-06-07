@@ -1,0 +1,18 @@
+{
+  "name": "untitled-bot-organisation",
+  "version": "1.0.0",
+  "description": "Discord bots, open source, free, forever.",
+  "main": "index.js",
+  "repository": "https://github.com/Untitled-Bot-Organisation/Untitled-Bot-Organisation.github.io",
+  "author": "NoComment1105 <nocomment1105@outlook.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "private": false,
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.46"
+  },
+
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
