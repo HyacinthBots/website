@@ -1,10 +1,10 @@
 {
-  "name": "untitled-bot-organisation",
+  "name": "hyacinthbots",
   "version": "1.0.0",
   "description": "Discord bots, open source, free, forever.",
   "main": "index.js",
-  "repository": "https://github.com/Untitled-Bot-Organisation/Untitled-Bot-Organisation.github.io",
-  "author": "NoComment1105 <nocomment1105@outlook.com>",
+  "repository": "https://github.com/HyacinthBots/HyacinthBots.github.io",
+  "author": "HyacinthBots <hyacinthbots@outlook.com>",
   "license": "CC-BY-NC-SA-4.0",
   "private": false,
   "devDependencies": {

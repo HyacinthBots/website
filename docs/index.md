@@ -1,5 +1,5 @@
 ---
 ---
-# Untitled Bot Organisation
+# HyacinthBots
 
 Discord bots, open source, free, forever.
