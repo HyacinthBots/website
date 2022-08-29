@@ -39,7 +39,10 @@ jobs:
             -   name: Deploy to GitHub pages
                 uses: crazy-max/ghaction-github-pages@v3
                 with:
+                    domain: github.io
                     target_branch: gh-pages
                     build_dir: docs/.vuepress/dist
+                    keep_history: true
+                    jekyll: false
                 env:
                     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
