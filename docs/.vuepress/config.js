@@ -1,6 +1,7 @@
 import {defaultTheme} from 'vuepress'
 
 module.exports = {
+    base: '/',
     lang: 'en-US',
     title: 'HyacinthBots',
     description: 'Discord bots, open source, free, forever.',
