@@ -1,4 +1,4 @@
-const {defaultTheme} = require("vuepress")
+import {defaultTheme} from 'vuepress'
 
 module.exports = {
     lang: 'en-US',
@@ -17,7 +17,7 @@ module.exports = {
                 },
                 {
                     text: 'Bots',
-                    children: ['/bots/lily.md']
+                    children: ['/bots/lily.md', "/bots/watchdog.md"]
                 }
             ],
             sidebar: [
@@ -31,7 +31,7 @@ module.exports = {
                 },
                 {
                     text: 'Bots',
-                    link: '/bots/bots.md',
+                    link: '/bots.md',
                     children: [
                         {
                             text: 'Lily',
@@ -40,6 +40,16 @@ module.exports = {
                                 {
                                     text: 'GitHub',
                                     link: 'https://github.com/IrisShaders/LilyBot' // TODO update to new links
+                                }
+                            ]
+                        },
+                        {
+                            text: 'Watchdog',
+                            link: '/bots/watchdog.md',
+                            children: [
+                                {
+                                    text: 'GitHub',
+                                    link: 'https://github.com/HyacinthBots/watchdog'
                                 }
                             ]
                         }
