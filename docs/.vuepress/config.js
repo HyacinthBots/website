@@ -8,14 +8,14 @@ module.exports = {
 
     theme: defaultTheme({
             logo: 'https://raw.githubusercontent.com/HyacinthBots/art/main/branding/icons/Hyacinth%20transparent%20icon.png',
-            toggleColorMode: "Toggle color mode",
-            toggleSidebar: "Toggle sidebar",
+            toggleColorMode: 'Toggle color mode',
+            toggleSidebar: 'Toggle sidebar',
             contributors: false,
-            notFound: ["The page you are looking for does not exist or has been moved!"],
+            notFound: ['The page you are looking for does not exist or has been moved!'],
 
             editLink: true,
-            editLinkText: "Help improve this page on GitHub",
-            editLinkPattern: ":repo/edit/:branch/:path",
+            editLinkText: 'Help improve this page on GitHub',
+            editLinkPattern: ':repo/edit/:branch/:path',
 
             docsRepo: 'https://github.com/HyacinthBots/website',
             docsBranch: 'main',
@@ -28,11 +28,11 @@ module.exports = {
                 },
                 {
                     text: 'About',
-                    link: "/about.md"
+                    link: '/about.md'
                 },
                 {
                     text: 'Bots',
-                    children: ['/bots/lily.md', "/bots/watchdog.md"]
+                    children: ['/bots/lily.md', '/bots/watchdog.md']
                 }
             ],
             sidebar: [
