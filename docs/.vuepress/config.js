@@ -54,7 +54,7 @@ module.exports = {
                             children: [
                                 {
                                     text: 'GitHub',
-                                    link: 'https://github.com/IrisShaders/LilyBot' // TODO update to new links
+                                    link: 'https://github.com/HyacinthBots/LilyBot'
                                 }
                             ]
                         },

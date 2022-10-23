@@ -1,13 +1,13 @@
 :root { // General Light mode configuration
 	scroll-behavior: smooth;
 	// brand colors
-	--c-brand: #74B652;
-	--c-brand-light: #85c96a;
+	--c-brand: #44752b;
+	--c-brand-light: #4b802f;
 
 	// background colors
-	--c-bg: #f1e5ff;
-	--c-bg-light: #f5eeff;
-	--c-bg-lighter: #fdfcff;
+	--c-bg: #ddd3ee;
+	--c-bg-light: #ddd3ee;
+	--c-bg-lighter: #ddd3ee;
 	--c-bg-navbar: var(--c-bg);
 	--c-bg-sidebar: var(--c-bg);
 	--c-bg-arrow: #cccccc;
@@ -79,9 +79,9 @@ html.dark { // General dark mode configuration
 	--c-brand-light: #85c96a; // Text color for light mode
 
 	// background colors
-	--c-bg: #3b2c48; // Main background color for dark-mode
-	--c-bg-light: #543e6c; // Why does
-	--c-bg-lighter: #5e4579; // this exist
+	--c-bg: #1c1121; // Main background color for dark-mode
+	--c-bg-light: #251b33; // Why does
+	--c-bg-lighter: #2c1d3a; // this exist
 
 	// text colors
 	--c-text: #adbac7;
