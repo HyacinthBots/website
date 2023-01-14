@@ -70,6 +70,10 @@
 	--sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
 	--content-width: 740px;
 	--homepage-width: 960px;
+
+	--back-to-top-z-index: 5;
+	--back-to-top-color: var(--c-brand);
+	--back-to-top-color-hover: var(--c-brand-light);
 }
 
 
@@ -107,10 +111,4 @@ html.dark { // General dark mode configuration
 
 	// code blocks vars
 	--code-hl-bg-color: #363b46;
-}
-
-// plugin-back-to-top
-.back-to-top {
-	--back-to-top-color: var(--c-brand);
-	--back-to-top-color-hover: var(--c-brand-light);
 }

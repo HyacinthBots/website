@@ -1,6 +1,7 @@
-import {defaultTheme} from 'vuepress'
+import {backToTopPlugin} from "@vuepress/plugin-back-to-top";
+import {defaultTheme, defineUserConfig} from "vuepress";
 
-module.exports = {
+export default defineUserConfig({
     base: '/',
     lang: 'en-US',
     title: 'HyacinthBots',
@@ -32,7 +33,15 @@ module.exports = {
                 },
                 {
                     text: 'Bots',
-                    children: ['/bots/lily.md', '/bots/watchdog.md']
+                    children: [
+                        {
+                            text: "Lily",
+                            link: '/bots/lily.md'
+                        },
+                        {
+                            text: "Watchdog",
+                            link: '/bots/watchdog.md'
+                        }]
                 }
             ],
             sidebar: [
@@ -72,5 +81,9 @@ module.exports = {
                 }
             ]
         }
-    )
-}
+    ),
+
+    plugins: [
+        backToTopPlugin()
+    ]
+})
