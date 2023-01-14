@@ -1,19 +1,28 @@
 {
   "name": "hyacinthbots",
   "version": "1.0.0",
-  "description": "Duscird bits, open source, free, forever.",
+  "description": "Discord Bots, open source, free, forever.",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "HyacinthBots <hyacinthbots@outlook.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyacinthBots/website.git"
+  },
+  "author": "HyacinthBots <hyacinthbots@outlook.com>",
   "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/HyacinthBots/website/issues"
+  },
+  "homepage": "https://github.com/HyacinthBots/website#readme",
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.60",
-    "@vuepress/plugin-back-to-top": "2.0.0-beta.60",
-    "vue": "^3.2.45",
-    "vuepress": "2.0.0-beta.60"
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.60",
+    "@vuepress/theme-default": "^2.0.0-beta.60",
+    "vuepress": "^2.0.0-beta.60"
   }
 }

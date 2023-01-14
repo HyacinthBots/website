@@ -1,5 +1,7 @@
+import {defineUserConfig} from "@vuepress/cli";
+import {defaultTheme} from "vuepress";
 import {backToTopPlugin} from "@vuepress/plugin-back-to-top";
-import {defaultTheme, defineUserConfig} from "vuepress";
+
 
 export default defineUserConfig({
     base: '/',
