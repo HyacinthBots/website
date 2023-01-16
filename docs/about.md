@@ -38,6 +38,7 @@ guiding the direction for the organsation as a whole
 NoComment...
 <br>
 <br>
+
 ##### Tempest
 <img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/66021850?v=4" alt="Tempest" width=72/>
 <br>
