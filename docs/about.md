@@ -33,7 +33,7 @@ There are two founders and leaders of HyacinthBots. They're responsible for mana
 guiding the direction for the organsation as a whole
 
 ##### NoComment 
-<img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/67918617?s=400&u=262ad547624351d96fb2c400baee1a6c060625eb&v=4" alt="NoComment" width="72"></img>
+<img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/67918617?s=400&u=262ad547624351d96fb2c400baee1a6c060625eb&v=4" alt="NoComment" width="72"/>
 <br>
 NoComment...
 <br>
