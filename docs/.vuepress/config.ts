@@ -31,7 +31,7 @@ export default defineUserConfig({
                 },
                 {
                     text: 'About',
-                    link: '/about-lily.md'
+                    link: '/about.md'
                 },
                 {
                     text: 'Bots',
