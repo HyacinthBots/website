@@ -20,7 +20,7 @@ flowers quite extensively. Ultimately, we settled on the [Hyacinth flower](https
 quite a beautiful flower, if we say so ourselves. Our logo is inspired from the Hyacinth flower itself.
 
 Upon naming our organisation, we swiftly transferred Lily into the organisation and began to work on building ourselves 
-up as a community, moving into our [Discord server](https://discord.gg/hy2329fcTZ) and begging to formalise proceedings.
+up as a community, moving into our [Discord server](https://discord.gg/hy2329fcTZ) and beginning to formalise proceedings.
 
 As an organisation, Hyacinth has 3 core principles that are present in every project:
 1. **Free**: All our bots are free to use, period.
@@ -29,20 +29,24 @@ As an organisation, Hyacinth has 3 core principles that are present in every pro
 
 
 ### Who is Hyacinth?
-There are two founders and leaders of HyacinthBots. They're responsible for managing the infrastructure, website and 
-guiding the direction for the organisation as a whole
+There are two founding members and leaders of HyacinthBots. They're responsible for managing the infrastructure, website
+and guiding the direction for the organisation as a whole.
 
-##### NoComment 
+#### NoComment 
 <img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/67918617?s=400&u=262ad547624351d96fb2c400baee1a6c060625eb&v=4" alt="NoComment" width="72"/>
-<br>
-NoComment...
+NoComment is the longest standing active developer at HyacinthBots. They began working on Lily during her Java days, and
+during the Kotlin rewrite they became a prolific developer. The wild amount of code they wrote allowed Lily to hit the 
+ground running when she first became a multi-guild bot. Today, they maintain multiple external libraries under the 
+HyacinthBots organisation and attempt to do wild things with varying degrees of success. They also manage the 
+infrastructure Lily runs on.
 <br>
 <br>
 
-##### tempest
-<img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/66021850?v=4" alt="Tempest" width=72/>
-<br>
-tempest ...
+#### tempest
+<img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/66021850?v=4" alt="tempest" width=72/>
+tempest began working on Lily shortly after the Kotlin rewrite released. Her first contributions were major 
+cleanups and re-organisations of the code. An early and well-used feature she introduced was the Role Menu extension, which is used in many guilds to this day. Since her work here began, the codebase has become far cleaner. Her high quality reviews on PRs mean any wild code NoComment writes ends up tidy and (hopefully) bug free. These days, she manages financials and social media pages, while also 
+providing reviews and intermittent but high quality code.
 <br>
 <br>
 
