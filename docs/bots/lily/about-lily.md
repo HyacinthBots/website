@@ -1,5 +1,5 @@
 ---
-permalink: /lily
+permalink: /bots/lily/about-lily
 ---
 # LilyBot
 

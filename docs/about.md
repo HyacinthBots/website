@@ -30,7 +30,7 @@ As an organisation, Hyacinth has 3 core principles that are present in every pro
 
 ### Who is Hyacinth?
 There are two founders and leaders of HyacinthBots. They're responsible for managing the infrastructure, website and 
-guiding the direction for the organsation as a whole
+guiding the direction for the organisation as a whole
 
 ##### NoComment 
 <img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/67918617?s=400&u=262ad547624351d96fb2c400baee1a6c060625eb&v=4" alt="NoComment" width="72"/>
@@ -39,10 +39,10 @@ NoComment...
 <br>
 <br>
 
-##### Tempest
+##### tempest
 <img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/66021850?v=4" alt="Tempest" width=72/>
 <br>
-Tempest ...
+tempest ...
 <br>
 <br>
 

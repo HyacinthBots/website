@@ -31,21 +31,22 @@ export default defineUserConfig({
                 },
                 {
                     text: 'About',
-                    link: '/about.md'
+                    link: '/about-lily.md'
                 },
                 {
                     text: 'Bots',
                     children: [
                         {
                             text: "Lily",
-                            link: '/bots/lily.md'
+                            link: '/bots/lily/about-lily.md'
                         },
                         {
                             text: "Watchdog",
-                            link: '/bots/watchdog.md'
+                            link: '/bots/watchdog/about-watchdog.md'
                         }]
                 }
             ],
+
             sidebar: [
                 {
                     text: 'Home',
@@ -61,8 +62,12 @@ export default defineUserConfig({
                     children: [
                         {
                             text: 'Lily',
-                            link: '/bots/lily.md',
+                            link: '/bots/lily/about-lily.md',
                             children: [
+								{
+									text: 'Commands',
+									link: '/bots/lily/commands.md'
+								},
                                 {
                                     text: 'GitHub',
                                     link: 'https://github.com/HyacinthBots/LilyBot'
@@ -71,7 +76,7 @@ export default defineUserConfig({
                         },
                         {
                             text: 'Watchdog',
-                            link: '/bots/watchdog.md',
+                            link: '/bots/watchdog/about-watchdog.md',
                             children: [
                                 {
                                     text: 'GitHub',

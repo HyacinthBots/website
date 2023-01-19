@@ -1,5 +1,5 @@
 ---
-permalink: /watchdog
+permalink: /bots/watchdog/about-watchdog
 ---
 
 # Watchdog
