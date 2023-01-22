@@ -1,4 +1,5 @@
 ---
+title: About Watchdog
 permalink: /bots/watchdog/about-watchdog
 ---
 

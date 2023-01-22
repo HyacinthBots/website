@@ -22,5 +22,8 @@
   "homepage": "https://github.com/HyacinthBots/website#readme",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.60"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.1.5"
   }
 }

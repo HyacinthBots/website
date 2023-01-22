@@ -1,13 +1,19 @@
+@use "catppuccin";
+
 :root { // General Light mode configuration
+	@each $name, $color in map-get(catppuccin.$palette, "latte") {
+		--#{$name}: #{$color};
+	}
+
 	scroll-behavior: smooth;
 	// brand colors
-	--c-brand: #44752b;
-	--c-brand-light: #4b802f;
+	--c-brand: var(--green);
+	--c-brand-light: var(--green);
 
 	// background colors
-	--c-bg: #ddd3ee;
-	--c-bg-light: #ddd3ee;
-	--c-bg-lighter: #ddd3ee;
+	--c-bg: var(--base);
+	--c-bg-light: var(--base);
+	--c-bg-lighter: var(--base);
 	--c-bg-navbar: var(--c-bg);
 	--c-bg-sidebar: var(--c-bg);
 	--c-bg-arrow: #cccccc;
@@ -21,8 +27,8 @@
 	--c-text-quote: #999999;
 
 	// border colors
-	--c-border: #eaecef;
-	--c-border-dark: #dfe2e5;
+	--c-border: var(--surface2);
+	--c-border-dark: var(--surface2);
 
 	// custom container colors
 	--c-tip: #42b983;
@@ -78,14 +84,18 @@
 
 
 html.dark { // General dark mode configuration
+	@each $name, $color in map-get(catppuccin.$palette, "macchiato") {
+		--#{$name}: #{$color};
+	}
+
 	// brand colors
-	--c-brand: #74B652; // Text color
-	--c-brand-light: #85c96a; // Text color for light mode
+	--c-brand: var(--green); // Text color
+	--c-brand-light: var(--green); // Text color for light mode
 
 	// background colors
-	--c-bg: #1c1121; // Main background color for dark-mode
-	--c-bg-light: #251b33; // Why does
-	--c-bg-lighter: #2c1d3a; // this exist
+	--c-bg: var(--base); // Main background color for dark-mode
+	--c-bg-light: var(--base); // Why does
+	--c-bg-lighter: var(--base); // this exist
 
 	// text colors
 	--c-text: #adbac7;
