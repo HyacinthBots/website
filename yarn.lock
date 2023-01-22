@@ -350,7 +350,7 @@
     "vue" "^3.2.45"
     "vue-router" "^4.1.6"
 
-"@vuepress/plugin-back-to-top@^2.0.0-beta.60", "@vuepress/plugin-back-to-top@2.0.0-beta.60":
+"@vuepress/plugin-back-to-top@2.0.0-beta.60":
   "integrity" "sha512-vpVTA6EwWjjYyl6Op5J16RV6rEvwUYkLnjYhJ2qWroDb8U2x32HGWFJZQFIyatGO+oU6UBVYow90j2+Ery2g6g=="
   "resolved" "https://registry.npmjs.org/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-beta.60.tgz"
   "version" "2.0.0-beta.60"
@@ -454,7 +454,7 @@
     "@mdit-vue/types" "^0.11.0"
     "@vue/shared" "^3.2.45"
 
-"@vuepress/theme-default@^2.0.0-beta.60", "@vuepress/theme-default@2.0.0-beta.60":
+"@vuepress/theme-default@2.0.0-beta.60":
   "integrity" "sha512-j9ybX31HWlmITnuGFt/IxQOt8ttBDI8ebzh4uKs70Yv8z4m1pMrlPNY2Qs2ubLpJIuCQNtMY2cfQKgaUiDYAuQ=="
   "resolved" "https://registry.npmjs.org/@vuepress/theme-default/-/theme-default-2.0.0-beta.60.tgz"
   "version" "2.0.0-beta.60"
