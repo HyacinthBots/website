@@ -43,6 +43,10 @@ export default defineUserConfig({
                         {
                             text: "Watchdog",
                             link: '/bots/watchdog.md'
+                        },
+                        {
+                            text: "Allium",
+                            link: '/bots/allium.md'
                         }]
                 }
             ],
@@ -76,6 +80,16 @@ export default defineUserConfig({
                                 {
                                     text: 'GitHub',
                                     link: 'https://github.com/HyacinthBots/watchdog'
+                                }
+                            ]
+                        },
+                        {
+                            text: 'Allium',
+                            link: '/bots/allium.md',
+                            children: [
+                                {
+                                    text: 'GitHub',
+                                    link: 'https://github.com/HyacinthBots/allium'
                                 }
                             ]
                         }
