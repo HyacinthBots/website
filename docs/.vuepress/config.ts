@@ -42,6 +42,10 @@ export default {
 					{
 						text: "Watchdog",
 						link: '/bots/watchdog/about-watchdog.md'
+					},
+					{
+						text: 'Allium',
+						link: '/bots/allium/about-allium.md'
 					}
 				]
 			}
@@ -81,6 +85,16 @@ export default {
 							{
 								text: 'GitHub',
 								link: 'https://github.com/HyacinthBots/watchdog'
+							}
+						]
+					},
+					{
+						text: 'Allium',
+						link: '/bots/allium/about-allium.md',
+						children: [
+							{
+								text: 'GitHub',
+								link: 'https://github.com/HyacinthBots/allium'
 							}
 						]
 					}
