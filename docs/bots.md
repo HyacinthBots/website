@@ -9,3 +9,4 @@ along with links to their relevant page on this website.
 
 * [LilyBot](docs/bots/lily/about-lily.md)
 * [Watchdog](docs/bots/watchdog/about-watchdog.md)
+* [Allium](docs/bots/allium.md)
