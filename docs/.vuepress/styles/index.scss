@@ -1,8 +1,10 @@
-@use "catppuccin";
+@import "vendor/catppuccin";
 
 :root { // General Light mode configuration
-	@each $name, $color in map-get(catppuccin.$palette, "latte") {
+	@each $name, $color in map-get($palette, "latte") {
 		--#{$name}: #{$color};
+		--#{$name}-dark: #{darken($color, 5)};
+		--#{$name}-darker: #{darken($color, 10)};
 	}
 
 	scroll-behavior: smooth;
@@ -14,8 +16,8 @@
 	--c-bg: var(--base);
 	--c-bg-light: var(--base);
 	--c-bg-lighter: var(--base);
-	--c-bg-navbar: var(--c-bg);
-	--c-bg-sidebar: var(--c-bg);
+	--c-bg-navbar: var(--base);
+	--c-bg-sidebar: var(--base);
 	--c-bg-arrow: #cccccc;
 
 	// text colors
@@ -74,7 +76,7 @@
 	--navbar-padding-h: 1.5rem;
 	--sidebar-width: 20rem;
 	--sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
-	--content-width: 740px;
+	--content-width: 850px;
 	--homepage-width: 960px;
 
 	--back-to-top-z-index: 5;
@@ -84,8 +86,10 @@
 
 
 html.dark { // General dark mode configuration
-	@each $name, $color in map-get(catppuccin.$palette, "macchiato") {
+	@each $name, $color in map-get($palette, "macchiato") {
 		--#{$name}: #{$color};
+		--#{$name}-dark: #{darken($color, 5)};
+		--#{$name}-darker: #{darken($color, 10)};
 	}
 
 	// brand colors
@@ -96,6 +100,9 @@ html.dark { // General dark mode configuration
 	--c-bg: var(--base); // Main background color for dark-mode
 	--c-bg-light: var(--base); // Why does
 	--c-bg-lighter: var(--base); // this exist
+	--c-bg-navbar: var(--base);
+	--c-bg-sidebar: var(--base);
+	--c-bg-arrow: #cccccc;
 
 	// text colors
 	--c-text: #adbac7;
