@@ -5,6 +5,8 @@
 		--#{$name}: #{$color};
 		--#{$name}-dark: #{darken($color, 5)};
 		--#{$name}-darker: #{darken($color, 10)};
+		--#{$name}-light: #{lighten($color, 5)};
+		--#{$name}-lighter: #{lighten($color, 10)};
 	}
 
 	scroll-behavior: smooth;
@@ -16,21 +18,21 @@
 	--c-bg: var(--base);
 	--c-bg-light: var(--base);
 	--c-bg-lighter: var(--base);
-	--c-bg-navbar: var(--base);
-	--c-bg-sidebar: var(--base);
-	--c-bg-arrow: #cccccc;
+	--c-bg-navbar: var(--base-dark);
+	--c-bg-sidebar: var(--base-dark);
+	--c-bg-arrow: var(--c-text);
 
 	// text colors
 	--c-text: #2c3e50;
 	--c-text-accent: var(--c-brand);
 	--c-text-light: #3a5169;
 	--c-text-lighter: #4e6e8e;
-	--c-text-lightest: #6a8bad;
+	//--c-text-lightest: #6a8bad;
 	--c-text-quote: #999999;
 
 	// border colors
-	--c-border: var(--surface2);
-	--c-border-dark: var(--surface2);
+	--c-border: var(--surface1);
+	--c-border-dark: var(--surface1);
 
 	// custom container colors
 	--c-tip: #42b983;
@@ -73,8 +75,8 @@
 	// layout vars
 	--navbar-height: 3.6rem;
 	--navbar-padding-v: 0.7rem;
-	--navbar-padding-h: 1.5rem;
-	--sidebar-width: 20rem;
+	--navbar-padding-h: 1.4rem;
+	--sidebar-width: 17.5rem;
 	--sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
 	--content-width: 850px;
 	--homepage-width: 960px;
@@ -90,29 +92,31 @@ html.dark { // General dark mode configuration
 		--#{$name}: #{$color};
 		--#{$name}-dark: #{darken($color, 5)};
 		--#{$name}-darker: #{darken($color, 10)};
+		--#{$name}-light: #{lighten($color, 5)};
+		--#{$name}-lighter: #{lighten($color, 10)};
 	}
 
 	// brand colors
-	--c-brand: var(--green); // Text color
-	--c-brand-light: var(--green); // Text color for light mode
+	--c-brand: var(--green-dark); // Text color
+	--c-brand-light: var(--green-darker); // Text color for light mode
 
 	// background colors
 	--c-bg: var(--base); // Main background color for dark-mode
 	--c-bg-light: var(--base); // Why does
 	--c-bg-lighter: var(--base); // this exist
-	--c-bg-navbar: var(--base);
-	--c-bg-sidebar: var(--base);
-	--c-bg-arrow: #cccccc;
+	--c-bg-navbar: var(--mantle);
+	--c-bg-sidebar: var(--mantle);
+	--c-bg-arrow: var(--c-text);
 
 	// text colors
-	--c-text: #adbac7;
-	--c-text-light: #96a7b7;
-	--c-text-lighter: #8b9eb0;
-	--c-text-lightest: #8094a8;
+	--c-text: var(--text);
+	--c-text-light: var(--text-light);
+	--c-text-lighter: var(--text-lighter);
+	//--c-text-lightest: var(--text-lighter);
 
 	// border colors
-	--c-border: #3e4c5a;
-	--c-border-dark: #34404c;
+	--c-border: var(--surface0-light);
+	--c-border-dark: var(--surface0-light);
 
 	// custom container colors
 	--c-tip: #318a62;
