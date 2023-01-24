@@ -11,7 +11,7 @@ export default {
 		logo: 'https://raw.githubusercontent.com/HyacinthBots/art/main/branding/icons/Hyacinth%20transparent%20icon.png',
 		toggleColorMode: 'Toggle color mode',
 		toggleSidebar: 'Toggle sidebar',
-		contributors: true,
+		contributors: false,
 		notFound: ['The page you are looking for does not exist or has been moved!'],
 
 		editLink: true,

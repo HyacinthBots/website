@@ -23,11 +23,11 @@
 	--c-bg-arrow: var(--c-text);
 
 	// text colors
-	--c-text: #2c3e50;
+	--c-text: var(--text-dark);
 	--c-text-accent: var(--c-brand);
-	--c-text-light: #3a5169;
-	--c-text-lighter: #4e6e8e;
-	//--c-text-lightest: #6a8bad;
+	--c-text-light: var(--text);
+	--c-text-lighter: var(--subtext1);
+	--c-text-lightest: var(--subtext0);
 	--c-text-quote: #999999;
 
 	// border colors
@@ -109,10 +109,11 @@ html.dark { // General dark mode configuration
 	--c-bg-arrow: var(--c-text);
 
 	// text colors
-	--c-text: var(--text);
-	--c-text-light: var(--text-light);
-	--c-text-lighter: var(--text-lighter);
-	//--c-text-lightest: var(--text-lighter);
+	// This is counter intuitive but it should be darker on the lighter vars, as they're for footers and things
+	--c-text: var(--text-light);
+	--c-text-light: var(--text);
+	--c-text-lighter: var(--text-dark);
+	--c-text-lightest: var(--text-darker);
 
 	// border colors
 	--c-border: var(--surface0-light);
