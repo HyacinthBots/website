@@ -35,20 +35,21 @@
 	--c-border-dark: var(--surface1);
 
 	// custom container colors
-	--c-tip: #42b983;
+	// TODO Confirm TIP and DANGER colours when/if we get them
+	--c-tip: var(--green-light);
 	--c-tip-bg: var(--c-bg-light);
 	--c-tip-title: var(--c-text);
 	--c-tip-text: var(--c-text);
 	--c-tip-text-accent: var(--c-text-accent);
-	--c-warning: #e7c000;
+	--c-warning: var(--yellow);
 	--c-warning-bg: #fffae3;
-	--c-warning-title: #ad9000;
-	--c-warning-text: #746000;
+	--c-warning-title: var(--yellow-dark);
+	--c-warning-text: var(--yellow-darker);
 	--c-warning-text-accent: var(--c-text);
-	--c-danger: #cc0000;
+	--c-danger: var(--red);
 	--c-danger-bg: #ffe0e0;
-	--c-danger-title: #990000;
-	--c-danger-text: #660000;
+	--c-danger-title: var(--red-dark);
+	--c-danger-text: var(--red-darker);
 	--c-danger-text-accent: var(--c-text);
 	--c-details-bg: #eeeeee;
 
@@ -96,6 +97,15 @@ html.dark { // General dark mode configuration
 		--#{$name}-lighter: #{lighten($color, 10)};
 	}
 
+	@each $name, $color in map-get($palette, "latte") {
+		--latte-#{$name}: #{$color};
+		--latte-#{$name}-dark: #{darken($color, 5)};
+		--latte-#{$name}-darker: #{darken($color, 10)};
+		--latte-#{$name}-light: #{lighten($color, 5)};
+		--latte-#{$name}-lighter: #{lighten($color, 10)};
+	}
+
+
 	// brand colors
 	--c-brand: var(--green-dark); // Text color
 	--c-brand-light: var(--green-darker); // Text color for light mode
@@ -120,15 +130,16 @@ html.dark { // General dark mode configuration
 	--c-border-dark: var(--surface0-light);
 
 	// custom container colors
-	--c-tip: #318a62;
-	--c-warning: #ceab00;
-	--c-warning-bg: #7e755b;
-	--c-warning-title: #ceac03;
-	--c-warning-text: #362e00;
-	--c-danger: #940000;
-	--c-danger-bg: #806161;
-	--c-danger-title: #610000;
-	--c-danger-text: #3a0000;
+	// TODO Confirm TIP and DANGER colours when/if we get them
+	--c-tip: var(--latte-green-light);
+	--c-warning: var(--latte-yellow);
+	--c-warning-bg: #fff1b3;
+	--c-warning-title: var(--latte-yellow-dark);
+	--c-warning-text: var(--latte-yellow-darker);
+	--c-danger: var(--latte-red);
+	--c-danger-bg: #ffe0e0;
+	--c-danger-title: var(--latte-red-dark);
+	--c-danger-text: var(--latte-red-darker);
 	--c-details-bg: #323843;
 
 	// code blocks vars
