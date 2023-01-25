@@ -35,19 +35,19 @@
 	--c-border-dark: var(--surface1);
 
 	// custom container colors
-	// TODO Confirm TIP and DANGER colours when/if we get them
 	--c-tip: var(--green-light);
 	--c-tip-bg: var(--c-bg-light);
-	--c-tip-title: var(--c-text);
-	--c-tip-text: var(--c-text);
+	--c-tip-title: var(--green-dark);
+	--c-tip-text: var(--green-darker);
 	--c-tip-text-accent: var(--c-text-accent);
 	--c-warning: var(--yellow);
-	--c-warning-bg: #fffae3;
+	//--c-warning-bg: #fffae3;
+	--c-warning-bg: var(--c-bg-light);
 	--c-warning-title: var(--yellow-dark);
 	--c-warning-text: var(--yellow-darker);
 	--c-warning-text-accent: var(--c-text);
 	--c-danger: var(--red);
-	--c-danger-bg: #ffe0e0;
+	--c-danger-bg: var(--c-bg-light);
 	--c-danger-title: var(--red-dark);
 	--c-danger-text: var(--red-darker);
 	--c-danger-text-accent: var(--c-text);
@@ -101,6 +101,7 @@ html.dark { // General dark mode configuration
 		--latte-#{$name}: #{$color};
 		--latte-#{$name}-dark: #{darken($color, 5)};
 		--latte-#{$name}-darker: #{darken($color, 10)};
+		--latte-#{$name}-darkest: #{darken($color, 15)};
 		--latte-#{$name}-light: #{lighten($color, 5)};
 		--latte-#{$name}-lighter: #{lighten($color, 10)};
 	}
@@ -130,12 +131,14 @@ html.dark { // General dark mode configuration
 	--c-border-dark: var(--surface0-light);
 
 	// custom container colors
-	// TODO Confirm TIP and DANGER colours when/if we get them
-	--c-tip: var(--latte-green-light);
-	--c-warning: var(--latte-yellow);
-	--c-warning-bg: #fff1b3;
-	--c-warning-title: var(--latte-yellow-dark);
-	--c-warning-text: var(--latte-yellow-darker);
+	--c-tip: var(--latte-green-dark);
+	--c-tip-bg: #e2ffe4;
+	--c-tip-title: var(--latte-green-darker);
+	--c-tip-text: var(--latte-green-darkest);
+	--c-warning: var(--latte-yellow-dark);
+	--c-warning-bg: #fffae3;
+	--c-warning-title: var(--latte-yellow-darker);
+	--c-warning-text: var(--latte-yellow-darkest);
 	--c-danger: var(--latte-red);
 	--c-danger-bg: #ffe0e0;
 	--c-danger-title: var(--latte-red-dark);
