@@ -1,6 +1,9 @@
 ---
 title: About LilyBot
 permalink: /bots/lily/about-lily
+description: This page tells you about LilyBot and features surrounding her!
+head:
+  - [meta, { name: keywords , content: LilyBot, Hyacinth, HyacinthBots, About LilyBot, Lily}]
 ---
 # LilyBot
 
@@ -18,6 +21,8 @@ If you need additional setup instructions for Lily's public instance, try our [u
 
 If you're looking to set up a development environment for Lily, checkout the [development guide!](https://github.com/HyacinthBots/LilyBot/blob/main/docs/development-guide.md)
 
+If you find an issue with Lily, please do not hesitate to join the Discord or Leave an issue on the [Issue Tracker](https://github.com/HyacinthBots/LilyBot/issues) 
+
 ::: warning Self-Hosting is not supported
 Self-hosting presents its own issues and can produce unexpected errors. For this reason we do not officially support
 self-hosting instances of LilyBot.
@@ -27,3 +32,10 @@ wish. Be aware that support will not be provided for a self-hosted instance as w
 have or have not made. If you find bugs in your self-hosted instance, please make sure you can reproduce it with the official
 instance before reporting it.
 :::
+
+### Reporting Vulnerabilities
+
+If you uncover a security vulnerability in LilyBot, please do not hesitate to get into contact with us at Hyacinth, so we 
+can ensure we fix them as soon as possible. The faster issues are reported, the safe Lily will be!
+
+Please refer to the [Security Policy](https://github.com/HyacinthBots/LilyBot/blob/main/SECURITY.md) for how to report issues

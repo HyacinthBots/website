@@ -1,6 +1,9 @@
 ---
 title: About Watchdog
 permalink: /bots/watchdog/about-watchdog
+description: This page talks all about watchdog!
+head:
+  - [meta, { name: keywords , content: Watchdog, Hyacinth Watchdog}]
 ---
 
 # Watchdog

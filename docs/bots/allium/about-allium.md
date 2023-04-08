@@ -1,5 +1,9 @@
 ---
+title: About Allium
 permalink: /allium
+description: This page talks all about Allium!
+head:
+  - [meta, { name: keywords, content: About Allium, Allium, HyacinthBots, Hyacinth}]
 ---
 # Allium
 

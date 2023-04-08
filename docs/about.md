@@ -1,6 +1,9 @@
 ---
 title: About
 permalink: /about
+description: This page talks all about HyacinthBots!
+head:
+  - [meta, { name: keywords , content: About HyacinthBots, HyacinthBots, Hyacinth}]
 ---
 # About HyacinthBots
 
