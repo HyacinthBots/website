@@ -11,7 +11,7 @@ When opening issues, please make sure that you include as much information as ap
 
 ## Pull Requests
 
-We love to see when people contribute to the project! Our [Issues Page](https://github.com/IrisShaders/LilyBot/issues)
+We love to see when people contribute to the project! Our [Issues Page](https://github.com/HyacinthBots/website/issues)
 often has a list of features that need to be implemented. However, you'll need to read the following guidelines:
 
 ### Contributor License Agreement (CLA)
@@ -30,7 +30,7 @@ and ask any questions that you may have.
 ## Pull Request Policy
 
 This PR policy has been adapted from the
-[Quilt Mappings](https://github.com/QuiltMC/quilt-mappings/blob/22w14a/CONTRIBUTING.md#guide-pull-requests) PR policy
+[Quilt Mappings](https://github.com/QuiltMC/quilt-mappings/blob/HEAD/CONTRIBUTING.md#guide-pull-requests) PR policy
 
 1. ### Look at the code style
    Before you begin work on adding code to LilyBot, please spend some time looking through the rest of the code in
