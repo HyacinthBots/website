@@ -39,7 +39,7 @@ This PR policy has been adapted from the
    If you have any questions, do not hesitate to ask in [our Discord](https://discord.gg/hy2329fcTZ).
 
 2. ### Open your PR and wait for reviews
-   Once you have forked teh website and opened a pull request, you will need to wait for reviews from other people. When you
+   Once you have forked the website and opened a pull request, you will need to wait for reviews from other people. When you
    get reviews, try to thoughtfully address any concerns other people have. If you get confused, be sure to ask
    questions!
 
