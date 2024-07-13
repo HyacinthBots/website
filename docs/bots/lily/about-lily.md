@@ -36,6 +36,6 @@ instance before reporting it.
 ### Reporting Vulnerabilities
 
 If you uncover a security vulnerability in LilyBot, please do not hesitate to get into contact with us at Hyacinth, so we 
-can ensure we fix them as soon as possible. The faster issues are reported, the safe Lily will be!
+can ensure we fix them as soon as possible. The faster issues are reported, the safer Lily will be!
 
 Please refer to the [Security Policy](https://github.com/HyacinthBots/LilyBot/blob/main/SECURITY.md) for how to report issues

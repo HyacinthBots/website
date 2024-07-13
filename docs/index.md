@@ -13,5 +13,5 @@ Here we're dedicated to creating the best possible bots we can, to provide you w
 services and excitement to run your Discord server!
 
 Come and have a look around! If you're interested in learning more about us, why not checkout the [about us](./about.md) 
-page. Maybe you're looking for a list of our bots? Head over to [bots](./bots.md) to find out more. And if you're just 
+page. Maybe you're looking for a list of our bots? Head over to [bots](./bots.md) to find out more. If you're just 
 here for a quick look, thanks for stopping by, hope to see you again soon! :D

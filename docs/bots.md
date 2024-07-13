@@ -1,6 +1,6 @@
 ---
 title: Bots
-permalink: /bots-by-hyacinth
+permalink: /bots
 description: This page holds a list of all the bots made by HyacinthBots
 head:
   - [meta, { name: keywords , content: LilyBot, Watchdog, Allium, Hyacinth, HyacinthBots}]
@@ -12,6 +12,10 @@ looking for ways to improve the bots we have in production, and for other bots t
 over time!
 
 ### Bots List
-* [LilyBot](/docs/bots/lily/about-lily.md)
-* [Watchdog](/docs/bots/watchdog/about-watchdog.md)
-* [Allium](/docs/bots/allium/about-allium.md)
+* [LilyBot](/bots/lily/about-lily.md)
+  * A multipurpose Discord bot for moderation, utilities and more! 
+* [Watchdog](/bots/watchdog/about-watchdog.md)
+  * Online monitoring for Discord bots.
+* [Allium](/bots/allium/about-allium.md)
+  * A Minecraft-focus utility bot for Discord.
+* **More coming soon!**

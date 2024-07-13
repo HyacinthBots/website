@@ -1,18 +1,21 @@
-import {defaultTheme} from "vuepress";
+// noinspection JSUnusedGlobalSymbols
+
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from "@vuepress/theme-default";
+import { defineUserConfig } from "vuepress"
 
 
-export default {
+export default defineUserConfig({
     base: '/',
     lang: 'en-US',
     title: 'HyacinthBots',
     description: 'Discord bots, open source, free, forever.',
+	bundler: viteBundler(),
 
     theme: defaultTheme({
 		logo: 'https://raw.githubusercontent.com/HyacinthBots/art/main/branding/icons/Hyacinth%20transparent%20icon.png',
-		toggleColorMode: 'Toggle color mode',
-		toggleSidebar: 'Toggle sidebar',
 		contributors: false,
-		notFound: ['The page you are looking for does not exist or has been moved!'],
+		notFound: ['The page you are looking for does not exist or has been moved! :('],
 
 		editLink: true,
 		editLinkText: 'Improve this page on GitHub',
@@ -24,31 +27,6 @@ export default {
 		docsDir: 'docs',
 
 		navbar: [
-			{
-				text: 'Home',
-				link: '/'
-			},
-			{
-				text: 'About',
-				link: '/about.md'
-			},
-			{
-				text: 'Bots',
-				children: [
-					{
-						text: "Lily",
-						link: '/bots/lily/about-lily.md'
-					},
-					{
-						text: "Watchdog",
-						link: '/bots/watchdog/about-watchdog.md'
-					},
-					{
-						text: 'Allium',
-						link: '/bots/allium/about-allium.md'
-					}
-				]
-			}
 		],
 
 		sidebar: [
@@ -63,14 +41,15 @@ export default {
 			{
 				text: 'Bots',
 				link: '/bots.md',
+				prefix: "/bots/",
 				children: [
 					{
 						text: 'Lily',
-						link: '/bots/lily/about-lily.md',
+						link: 'lily/about-lily.md',
 						children: [
 							{
 								text: 'Commands',
-								link: '/bots/lily/commands.md'
+								link: 'lily/commands.md'
 							},
 							{
 								text: 'GitHub',
@@ -80,7 +59,7 @@ export default {
 					},
 					{
 						text: 'Watchdog',
-						link: '/bots/watchdog/about-watchdog.md',
+						link: 'watchdog/about-watchdog.md',
 						children: [
 							{
 								text: 'GitHub',
@@ -90,7 +69,7 @@ export default {
 					},
 					{
 						text: 'Allium',
-						link: '/bots/allium/about-allium.md',
+						link: 'allium/about-allium.md',
 						children: [
 							{
 								text: 'GitHub',
@@ -100,6 +79,7 @@ export default {
 					}
 				]
 			}
-		]
+		],
+		sidebarDepth: 1
 	}),
-}
+})

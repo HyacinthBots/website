@@ -41,13 +41,14 @@
 	--c-tip-text: var(--green-darker);
 	--c-tip-text-accent: var(--c-text-accent);
 	--c-warning: var(--yellow);
-	//--c-warning-bg: #fffae3;
-	--c-warning-bg: var(--c-bg-light);
+	--c-warning-bg: #fffae3;
+	//--c-warning-bg: var(--c-bg-light);
 	--c-warning-title: var(--yellow-dark);
 	--c-warning-text: var(--yellow-darker);
 	--c-warning-text-accent: var(--c-text);
 	--c-danger: var(--red);
-	--c-danger-bg: var(--c-bg-light);
+	//--c-danger-bg: var(--c-bg-light);
+	--c-danger-bg: #ffe0e0;
 	--c-danger-title: var(--red-dark);
 	--c-danger-text: var(--red-darker);
 	--c-danger-text-accent: var(--c-text);

@@ -1,6 +1,6 @@
 ---
 title: About Allium
-permalink: /allium
+permalink: /bots/allium/about-allium
 description: This page talks all about Allium!
 head:
   - [meta, { name: keywords, content: About Allium, Allium, HyacinthBots, Hyacinth}]
