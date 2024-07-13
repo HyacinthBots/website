@@ -11,7 +11,7 @@ When opening issues, please make sure that you include as much information as ap
 
 ## Pull Requests
 
-We love to see when people contribute to the project! Our [Issues Page](https://github.com/HyacinthBots/website/issues)
+We love to see people contribute to the project! Our [Issues Page](https://github.com/HyacinthBots/website/issues)
 often has a list of features that need to be implemented. However, you'll need to read the following guidelines:
 
 ### Contributor License Agreement (CLA)
@@ -33,13 +33,13 @@ This PR policy has been adapted from the
 [Quilt Mappings](https://github.com/QuiltMC/quilt-mappings/blob/HEAD/CONTRIBUTING.md#guide-pull-requests) PR policy
 
 1. ### Look at the code style
-   Before you begin work on adding code to LilyBot, please spend some time looking through the rest of the code in
+   Before you begin work on adding code to the website, please spend some time looking through the rest of the code in
    LilyBot, and ensure in your Pull Request you follow the style as closely as you can.
 
    If you have any questions, do not hesitate to ask in [our Discord](https://discord.gg/hy2329fcTZ).
 
 2. ### Open your PR and wait for reviews
-   Once you have forked LilyBot and opened a pull request, you will need to wait for reviews from other people. When you
+   Once you have forked teh website and opened a pull request, you will need to wait for reviews from other people. When you
    get reviews, try to thoughtfully address any concerns other people have. If you get confused, be sure to ask
    questions!
 
