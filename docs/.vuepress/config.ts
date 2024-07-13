@@ -27,6 +27,14 @@ export default defineUserConfig({
 		docsDir: 'docs',
 
 		navbar: [
+			{
+				text: 'Discord',
+				link: 'https://discord.gg/hy2329fcTZ',
+			},
+			{
+				text: 'Buy us a coffee!',
+				link: 'https://buymeacoffee.com/hyacinthbots',
+			}
 		],
 
 		sidebar: [
