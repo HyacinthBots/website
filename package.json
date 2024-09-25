@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/HyacinthBots/website#readme",
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.14",
-    "@vuepress/client": "2.0.0-rc.14",
-    "@vuepress/theme-default": "2.0.0-rc.37",
-    "vue": "^3.4.31",
-    "vuepress": "2.0.0-rc.14"
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/client": "2.0.0-rc.15",
+    "@vuepress/theme-default": "2.0.0-rc.49",
+    "vue": "^3.5.8",
+    "vuepress": "2.0.0-rc.15"
   }
 }

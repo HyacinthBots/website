@@ -48,7 +48,7 @@ infrastructure Lily runs on.
 <img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/66021850?v=4" alt="tempest" width=81/>
 tempest began working on Lily shortly after the Kotlin rewrite released. Her first contributions were major 
 cleanups and re-organisations of the code. An early and well-used feature she introduced was the Role Menu extension, which is used in many guilds to this day. Since her work here began, the codebase has become far cleaner. Her high quality reviews on PRs mean any wild code NoComment writes ends up tidy and (hopefully) bug free. These days, she manages financials and social media pages, while also 
-providing reviews and intermittent but high quality code.
+providing reviews and intermittent but high quality code. Recently she stepped back from the project due to lack of spare time to contribute to Lily. Despite no longer being part of the core team, she remains a key part of the puzzle that made the organisation what it is today 
 <br>
 <br>
 
@@ -58,7 +58,8 @@ full burden of development lying on the shoulders of the founding members
 
 ### <p style="text-align: center;">NotJansel</p>
 <img style="display: block; float: left; padding-right: 8px" src="https://avatars.githubusercontent.com/u/73423410?v=4" alt="NotJansel" width=81>
-NotJansel is the original creator of [Allium](/docs/bots/allium/about-allium.md). NotJansel continues to develop Allium today
+
+NotJansel is the original creator of [Allium](/bots/allium/about-allium). NotJansel continues to develop Allium today
 managing Allium's infrastructure and improving the bot with every opportunity. Alliums holds some of the older Minecraft 
 features that used to be present in LilyBot, NotJansel helped to prepare Allium for those features to be moved over to
 into its codebase.
