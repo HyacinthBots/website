@@ -1,12 +1,14 @@
-@import "vendor/catppuccin";
+@use "sass:color";
+@use "sass:map";
+@use "vendor/catppuccin";
 
 :root { // General Light mode configuration
-	@each $name, $color in map-get($palette, "latte") {
+	@each $name, $color in map.get(catppuccin.$palette, "latte") {
 		--#{$name}: #{$color};
-		--#{$name}-dark: #{adjust-color($color, $lightness: -5%)};
-		--#{$name}-darker: #{adjust-color($color, $lightness: -10%)};
-		--#{$name}-light: #{adjust-color($color, $lightness: +5%)};
-		--#{$name}-lighter: #{adjust-color($color, $lightness: +10%)};
+		--#{$name}-dark: #{color.adjust($color, $lightness: -5%)};
+		--#{$name}-darker: #{color.adjust($color, $lightness: -10%)};
+		--#{$name}-light: #{color.adjust($color, $lightness: +5%)};
+		--#{$name}-lighter: #{color.adjust($color, $lightness: +10%)};
 	}
 
 	scroll-behavior: smooth;
@@ -90,21 +92,21 @@
 
 
 html.dark { // General dark mode configuration
-	@each $name, $color in map-get($palette, "macchiato") {
+	@each $name, $color in map.get(catppuccin.$palette, "macchiato") {
 		--#{$name}: #{$color};
-		--#{$name}-dark: #{adjust-color($color, $lightness: -5%)};
-		--#{$name}-darker: #{adjust-color($color, $lightness: -10%)};
-		--#{$name}-light: #{adjust-color($color, $lightness: +5%)};
-		--#{$name}-lighter: #{adjust-color($color, $lightness: +10%)};
+		--#{$name}-dark: #{color.adjust($color, $lightness: -5%)};
+		--#{$name}-darker: #{color.adjust($color, $lightness: -10%)};
+		--#{$name}-light: #{color.adjust($color, $lightness: +5%)};
+		--#{$name}-lighter: #{color.adjust($color, $lightness: +10%)};
 	}
 
-	@each $name, $color in map-get($palette, "latte") {
+	@each $name, $color in map.get(catppuccin.$palette, "latte") {
 		--latte-#{$name}: #{$color};
-		--latte-#{$name}-dark: #{adjust-color($color, $lightness: -5%)};
-		--latte-#{$name}-darker: #{adjust-color($color, $lightness: -10%)};
-		--latte-#{$name}-darkest: #{adjust-color($color, $lightness: -15%)};
-		--latte-#{$name}-light: #{adjust-color($color, $lightness: +5%)};
-		--latte-#{$name}-lighter: #{adjust-color($color, $lightness: +10%)};
+		--latte-#{$name}-dark: #{color.adjust($color, $lightness: -5%)};
+		--latte-#{$name}-darker: #{color.adjust($color, $lightness: -10%)};
+		--latte-#{$name}-darkest: #{color.adjust($color, $lightness: -15%)};
+		--latte-#{$name}-light: #{color.adjust($color, $lightness: +5%)};
+		--latte-#{$name}-lighter: #{color.adjust($color, $lightness: +10%)};
 	}
 
 
