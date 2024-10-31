@@ -1,8 +1,17 @@
 ---
-permalink: /watchdog
+title: About Watchdog
+permalink: /bots/watchdog/about-watchdog
+description: This page talks all about watchdog!
+head:
+  - [meta, { name: keywords , content: Watchdog, Hyacinth Watchdog}]
 ---
-
 # Watchdog
+
+::: danger Watchdog is not in a usable state currently
+Watchdog has not seen proper development in a long time due to our hosting system becoming a lot more reliable as of late.
+Watchdog may see further development in the future, it may not, that remains to be seen. If you wish to work on watchdog,
+please contact us or make some Pull Requests, they will still be reviewed in a reasonable time.
+:::
 
 Watchdog is our monitoring bot that initially was designed to monitor the status of LilyBot, but will become more general
 purpose and watch over any and all bots we produce.

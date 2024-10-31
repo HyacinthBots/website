@@ -1,44 +1,58 @@
+@use "sass:color";
+@use "sass:map";
+@use "vendor/catppuccin";
+
 :root { // General Light mode configuration
+	@each $name, $color in map.get(catppuccin.$palette, "latte") {
+		--#{$name}: #{$color};
+		--#{$name}-dark: #{color.adjust($color, $lightness: -5%)};
+		--#{$name}-darker: #{color.adjust($color, $lightness: -10%)};
+		--#{$name}-light: #{color.adjust($color, $lightness: +5%)};
+		--#{$name}-lighter: #{color.adjust($color, $lightness: +10%)};
+	}
+
 	scroll-behavior: smooth;
 	// brand colors
-	--c-brand: #44752b;
-	--c-brand-light: #4b802f;
+	--c-brand: var(--green);
+	--c-brand-light: var(--green);
 
 	// background colors
-	--c-bg: #ddd3ee;
-	--c-bg-light: #ddd3ee;
-	--c-bg-lighter: #ddd3ee;
-	--c-bg-navbar: var(--c-bg);
-	--c-bg-sidebar: var(--c-bg);
-	--c-bg-arrow: #cccccc;
+	--c-bg: var(--base);
+	--c-bg-light: var(--base);
+	--c-bg-lighter: var(--base);
+	--c-bg-navbar: var(--base-dark);
+	--c-bg-sidebar: var(--base-dark);
+	--c-bg-arrow: var(--c-text);
 
 	// text colors
-	--c-text: #2c3e50;
+	--c-text: var(--text-dark);
 	--c-text-accent: var(--c-brand);
-	--c-text-light: #3a5169;
-	--c-text-lighter: #4e6e8e;
-	--c-text-lightest: #6a8bad;
+	--c-text-light: var(--text);
+	--c-text-lighter: var(--subtext1);
+	--c-text-lightest: var(--subtext0);
 	--c-text-quote: #999999;
 
 	// border colors
-	--c-border: #eaecef;
-	--c-border-dark: #dfe2e5;
+	--c-border: var(--surface1);
+	--c-border-dark: var(--surface1);
 
 	// custom container colors
-	--c-tip: #42b983;
+	--c-tip: var(--green-light);
 	--c-tip-bg: var(--c-bg-light);
-	--c-tip-title: var(--c-text);
-	--c-tip-text: var(--c-text);
+	--c-tip-title: var(--green-dark);
+	--c-tip-text: var(--green-darker);
 	--c-tip-text-accent: var(--c-text-accent);
-	--c-warning: #e7c000;
+	--c-warning: var(--yellow);
 	--c-warning-bg: #fffae3;
-	--c-warning-title: #ad9000;
-	--c-warning-text: #746000;
+	//--c-warning-bg: var(--c-bg-light);
+	--c-warning-title: var(--yellow-dark);
+	--c-warning-text: var(--yellow-darker);
 	--c-warning-text-accent: var(--c-text);
-	--c-danger: #cc0000;
+	--c-danger: var(--red);
+	//--c-danger-bg: var(--c-bg-light);
 	--c-danger-bg: #ffe0e0;
-	--c-danger-title: #990000;
-	--c-danger-text: #660000;
+	--c-danger-title: var(--red-dark);
+	--c-danger-text: var(--red-darker);
 	--c-danger-text-accent: var(--c-text);
 	--c-details-bg: #eeeeee;
 
@@ -65,10 +79,10 @@
 	// layout vars
 	--navbar-height: 3.6rem;
 	--navbar-padding-v: 0.7rem;
-	--navbar-padding-h: 1.5rem;
-	--sidebar-width: 20rem;
+	--navbar-padding-h: 1.4rem;
+	--sidebar-width: 17.5rem;
 	--sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
-	--content-width: 740px;
+	--content-width: 850px;
 	--homepage-width: 960px;
 
 	--back-to-top-z-index: 5;
@@ -78,35 +92,60 @@
 
 
 html.dark { // General dark mode configuration
+	@each $name, $color in map.get(catppuccin.$palette, "macchiato") {
+		--#{$name}: #{$color};
+		--#{$name}-dark: #{color.adjust($color, $lightness: -5%)};
+		--#{$name}-darker: #{color.adjust($color, $lightness: -10%)};
+		--#{$name}-light: #{color.adjust($color, $lightness: +5%)};
+		--#{$name}-lighter: #{color.adjust($color, $lightness: +10%)};
+	}
+
+	@each $name, $color in map.get(catppuccin.$palette, "latte") {
+		--latte-#{$name}: #{$color};
+		--latte-#{$name}-dark: #{color.adjust($color, $lightness: -5%)};
+		--latte-#{$name}-darker: #{color.adjust($color, $lightness: -10%)};
+		--latte-#{$name}-darkest: #{color.adjust($color, $lightness: -15%)};
+		--latte-#{$name}-light: #{color.adjust($color, $lightness: +5%)};
+		--latte-#{$name}-lighter: #{color.adjust($color, $lightness: +10%)};
+	}
+
+
 	// brand colors
-	--c-brand: #74B652; // Text color
-	--c-brand-light: #85c96a; // Text color for light mode
+	--c-brand: var(--green-dark); // Text color
+	--c-brand-light: var(--green-darker); // Text color for light mode
 
 	// background colors
-	--c-bg: #1c1121; // Main background color for dark-mode
-	--c-bg-light: #251b33; // Why does
-	--c-bg-lighter: #2c1d3a; // this exist
+	--c-bg: var(--base); // Main background color for dark-mode
+	--c-bg-light: var(--base); // Why does
+	--c-bg-lighter: var(--base); // this exist
+	--c-bg-navbar: var(--mantle);
+	--c-bg-sidebar: var(--mantle);
+	--c-bg-arrow: var(--c-text);
 
 	// text colors
-	--c-text: #adbac7;
-	--c-text-light: #96a7b7;
-	--c-text-lighter: #8b9eb0;
-	--c-text-lightest: #8094a8;
+	// This is counter intuitive but it should be darker on the lighter vars, as they're for footers and things
+	--c-text: var(--text-light);
+	--c-text-light: var(--text);
+	--c-text-lighter: var(--text-dark);
+	--c-text-lightest: var(--text-darker);
 
 	// border colors
-	--c-border: #3e4c5a;
-	--c-border-dark: #34404c;
+	--c-border: var(--surface0-light);
+	--c-border-dark: var(--surface0-light);
 
 	// custom container colors
-	--c-tip: #318a62;
-	--c-warning: #ceab00;
-	--c-warning-bg: #7e755b;
-	--c-warning-title: #ceac03;
-	--c-warning-text: #362e00;
-	--c-danger: #940000;
-	--c-danger-bg: #806161;
-	--c-danger-title: #610000;
-	--c-danger-text: #3a0000;
+	--c-tip: var(--latte-green-dark);
+	--c-tip-bg: #e2ffe4;
+	--c-tip-title: var(--latte-green-darker);
+	--c-tip-text: var(--latte-green-darkest);
+	--c-warning: var(--latte-yellow-dark);
+	--c-warning-bg: #fffae3;
+	--c-warning-title: var(--latte-yellow-darker);
+	--c-warning-text: var(--latte-yellow-darkest);
+	--c-danger: var(--latte-red);
+	--c-danger-bg: #ffe0e0;
+	--c-danger-title: var(--latte-red-dark);
+	--c-danger-text: var(--latte-red-darker);
 	--c-details-bg: #323843;
 
 	// code blocks vars

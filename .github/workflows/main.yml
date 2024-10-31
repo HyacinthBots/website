@@ -1,0 +1,65 @@
+name: Deploy
+
+on:
+    workflow_dispatch:
+
+    push:
+        branches:
+            - main
+
+jobs:
+    deploy-preview:
+        environment: Site
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: read
+            deployments: write
+
+        name: Deploy Prod
+
+        steps:
+            - uses: actions/checkout@v3
+
+              with:
+                  fetch-depth: 0
+
+            - name: Install node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 8
+
+            - name: Get pnpm store directory
+              id: pnpm-cache
+
+              run: |
+                  echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+            - name: Setup pnpm cache
+              uses: actions/cache@v3
+
+              with:
+                  path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+                  key: "${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yml') }}"
+
+                  restore-keys: |
+                      ${{ runner.os }}-pnpm-store-
+
+            - name: Build site
+              run: pnpm install && pnpm run docs:build
+
+            - name: Deploy to Cloudflare Pages
+              uses: AdrianGonz97/refined-cf-pages-action@v1
+
+              with:
+                  apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                  githubToken: ${{ secrets.GITHUB_TOKEN }}
+                  projectName: website
+                  directory: docs/.vuepress/dist
+                  deploymentName: Site
