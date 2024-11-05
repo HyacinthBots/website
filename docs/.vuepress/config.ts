@@ -28,6 +28,10 @@ export default defineUserConfig({
 
 		navbar: [
 			{
+				text: 'Status',
+				link: 'https://status.hyacinthbots.org',
+			},
+			{
 				text: 'Discord',
 				link: 'https://discord.gg/hy2329fcTZ',
 			},

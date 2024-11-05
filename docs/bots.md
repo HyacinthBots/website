@@ -11,10 +11,17 @@ Below is a complete list of all the bots we've currently got running in producti
 looking for ways to improve the bots we have in production, and for other bots to create. Expect this list to expand 
 over time!
 
+### Status tracker
+
+View the current status of our active bots and services [here!](https://status.hyacinthbots.org)
+
 ### Bots List
 * [LilyBot](/bots/lily/about-lily.md)
   * A multipurpose Discord bot for moderation, utilities and more! 
 * [Watchdog](/bots/watchdog/about-watchdog.md)
+  ::: details Inactive Bot!
+  Watchdog is currently inactive and unsupported in the Hyacinth world, that'll change, stay tuned!
+  :::
   * Online monitoring for Discord bots.
 * [Allium](/bots/allium/about-allium.md)
   * A Minecraft-focus utility bot for Discord.
