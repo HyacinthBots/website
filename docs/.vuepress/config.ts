@@ -84,7 +84,7 @@ export default defineUserConfig({
 						link: 'sus-detector/about-sus-detector',
 						children: [
 							{
-								text: 'GitHub'
+								text: 'GitHub',
 								link: 'https://github.com/HyacinthBots/Sus-Detector'
 							}
 						]
