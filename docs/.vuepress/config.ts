@@ -80,6 +80,16 @@ export default defineUserConfig({
 						]
 					},
 					{
+						text: 'Sus-Detector',
+						link: 'sus-detector/about-sus-detector',
+						children: [
+							{
+								text: 'GitHub'
+								link: 'https://github.com/HyacinthBots/Sus-Detector'
+							}
+						]
+					},
+					{
 						text: 'Allium',
 						link: 'allium/about-allium.md',
 						children: [

@@ -23,6 +23,8 @@ View the current status of our active bots and services [here!](https://status.h
   Watchdog is currently inactive and unsupported in the Hyacinth world, that'll change, stay tuned!
   :::
   * Online monitoring for Discord bots.
+* [Sus Detector](/bots/sus-detector/about-sus-detector.md)
+  * Defence against spam message in Discord channels!
 * [Allium](/bots/allium/about-allium.md)
   * A Minecraft-focus utility bot for Discord.
 * **More coming soon!**
